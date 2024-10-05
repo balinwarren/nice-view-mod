@@ -228,6 +228,10 @@ const lv_img_dsc_t mountain = {
     .data = mountain_map,
 };
 
+#ifndef LV_ATTRIBUTE_IMG_FRAME1
+#define LV_ATTRIBUTE_IMG_FRAME1
+#endif
+
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME1 uint8_t frame1_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
@@ -316,6 +320,10 @@ const lv_img_dsc_t frame1 = {
   .data_size = 1224,
   .data = frame1_map,
 };
+
+#ifndef LV_ATTRIBUTE_IMG_FRAME2
+#define LV_ATTRIBUTE_IMG_FRAME2
+#endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME2 uint8_t frame2_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
@@ -406,6 +414,10 @@ const lv_img_dsc_t frame2 = {
   .data = frame2_map,
 };
 
+#ifndef LV_ATTRIBUTE_IMG_FRAME3
+#define LV_ATTRIBUTE_IMG_FRAME3
+#endif
+
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME3 uint8_t frame3_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
@@ -494,6 +506,10 @@ const lv_img_dsc_t frame3 = {
   .data_size = 1224,
   .data = frame3_map,
 };
+
+#ifndef LV_ATTRIBUTE_IMG_FRAME4
+#define LV_ATTRIBUTE_IMG_FRAME4
+#endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME4 uint8_t frame4_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
@@ -584,6 +600,10 @@ const lv_img_dsc_t frame4 = {
   .data = frame4_map,
 };
 
+#ifndef LV_ATTRIBUTE_IMG_FRAME5
+#define LV_ATTRIBUTE_IMG_FRAME5
+#endif
+
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME5 uint8_t frame5_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
@@ -672,6 +692,10 @@ const lv_img_dsc_t frame5 = {
   .data_size = 1224,
   .data = frame5_map,
 };
+
+#ifndef LV_ATTRIBUTE_IMG_FRAME6
+#define LV_ATTRIBUTE_IMG_FRAME6
+#endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME6 uint8_t frame6_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
@@ -762,6 +786,10 @@ const lv_img_dsc_t frame6 = {
   .data = frame6_map,
 };
 
+#ifndef LV_ATTRIBUTE_IMG_FRAME7
+#define LV_ATTRIBUTE_IMG_FRAME7
+#endif
+
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME7 uint8_t frame7_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
@@ -850,6 +878,10 @@ const lv_img_dsc_t frame7 = {
   .data_size = 1224,
   .data = frame7_map,
 };
+
+#ifndef LV_ATTRIBUTE_IMG_FRAME8
+#define LV_ATTRIBUTE_IMG_FRAME8
+#endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_FRAME8 uint8_t frame8_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
