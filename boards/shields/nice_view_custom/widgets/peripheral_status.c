@@ -27,17 +27,6 @@ LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
 LV_IMG_DECLARE(frame8);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &frame1,
-    &frame2,
-    &frame3,
-    &frame4,
-    &frame5,
-    &frame6,
-    &frame7,
-    &frame8,
-};
-
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 struct peripheral_status_state {
